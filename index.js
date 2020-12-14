@@ -324,7 +324,7 @@ class IOHook extends EventEmitter {
             if (key === 'callback' || key === 'releaseCallback' || key === 'id') return;
 
             // If one of the keys aren't pressed...
-            if (shortcut[key] === false) {
+            if (shortcut[key] === false || event.altKey || event.ctrlKey || event.metaKey || event.shiftKey) {
               // Don't call the callback and empty our temp tracking array
               callme = false;
               keysTmpArray.splice(0, keysTmpArray.length);
