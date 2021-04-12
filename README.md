@@ -25,6 +25,15 @@ Found a bug? Have an idea? Feel free to post an [issue](https://github.com/wilix
 
 iohook provides prebuilt version for a bunch of OSes and platforms.
 
+### Linux (including WSL)
+
+```bash
+# On Linux (including WSL) platform, you will need libxkbcommon-x11 installed
+sudo apt-get install -y libxkbcommon-x11-0
+```
+
+### All platforms
+
 ```bash
 npm install iohook --save # or yarn add iohook
 ```
@@ -46,6 +55,7 @@ Are you using iohook in your project ? Please tell us in a [PR](https://github.c
 - [Cortex](https://crtx.gg/)
 - [Tracklify](https://tracklify.com/)
 - [CrewLink](https://github.com/ottomated/CrewLink)
+- [Runtime](https://github.com/yikuansun/desktopspeedruntools#runtime-speedrun-tools)
 
 ## Contributors
 
